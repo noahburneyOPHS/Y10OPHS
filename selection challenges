@@ -35,3 +35,12 @@ if colour == "red" or "RED" or "Red":
     print("i like red too")
 else:
     print("i dont like", colour, colour, "is for losers")
+    
+SELECTION CHALLENGE 4
+
+colour = str(input("enter a colour >>>"))
+
+if colour == "RED" or colour == "Red" or colour == "red":
+    print("I like red too")
+else:
+    print("i dont like", colour, ",", colour, "is for losers")
