@@ -44,3 +44,18 @@ if colour == "RED" or colour == "Red" or colour == "red":
     print("I like red too")
 else:
     print("i dont like", colour, ",", colour, "is for losers")
+
+SELECTION CHALLENGE 5
+
+question = input("is it raining? >>>").lower()
+question2 = input("is it windy? >>>").lower()
+
+if question == "yes":
+    print = input("is it windy? >>>").lower()
+else:
+    print("enjoy your day") 
+
+if question2 == "yes":
+    print("it is too windy for an umbrella")
+else:
+    print("take an umbrella")
