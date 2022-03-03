@@ -7,3 +7,15 @@ while total <= 50:
     print("The total is", total)
     if total > 50:
         print(total, "is over 50")
+        
+WHILE LOOP CHALLENGE 2
+
+number = 0
+
+import sys
+
+while number < 5:
+    total = int(input("Enter a number >>>"))
+    if total > 5:
+        print("The last number you entered was a", total)
+        exit(sys)
