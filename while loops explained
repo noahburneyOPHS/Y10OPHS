@@ -5,11 +5,26 @@ while number != 8:
     number = number + 1
     print ("the number is", number)
     
-    WHILE LOOPS 2
+WHILE LOOPS 2
     
     answer = "N"
 while answer != "Y":
     print("are we there yet?")
     answer = input("Please respond Y or N").upper()
 print("Yay! We are there!")
+
+WHILE LOOPS 3
+
+username = ""
+while not username:
+    username = input("Please enter username: ")
+
+WHILE LOOPS 4
+
+answerOK = False
+while answerOK == False:
+
+    answer = input("Exit? y or n ").upper()
+    if answer == "Y":
+        answerOK = True
 
