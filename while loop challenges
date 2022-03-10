@@ -24,11 +24,16 @@ WHILE LOOP CHALLENGE 3
 
 number1 = int(input("Enter a number >>>"))
 
-total = number1
-variable1 = total
-variable2 = "y"
+variable = "y"
+
 
 import sys
 
-number2 = int(input("Enter a number >>>"))
-number1 + number2 = total2
+number2 = int(input("Enter another number >>>"))
+
+total = number1 + number2
+print("Answer =", total)
+
+answer1 = input("Would you like to enter another number, please respond", variable,"or n >>>")
+while answer1 == y:
+    number3 = int(input("Enter another number >>>"))
