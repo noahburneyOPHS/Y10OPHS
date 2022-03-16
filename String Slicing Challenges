@@ -1,0 +1,46 @@
+string slicing challenge 1
+
+name = str(input("Enter your name >>>"))
+print(len(name))
+
+
+string sclicing challenge 2
+
+name1 = str(input("Enter your first name >>>"))
+name2 = str(input("Enter your last name >>>"))
+space = " "
+concat = name1 + space + name2
+print(concat)
+print(len(concat))
+
+string slicing challenge 3
+
+name1 = str(input("enter your first name >>>").lower())
+name2 = str(input("enter your last name >>>").lower())
+space = " "
+concat = name1 + space + name2
+print(concat)
+
+string slicing challenge 4
+
+variable1 = str(input("Enter the first line of a nursery rhyme >>>"))
+variable2 = len(variable1)
+print ("This has", variable2,"letters in it")
+
+number1 = int(input("Enter a starting number >>>"))
+number2 = int(input("Enter an ending number >>>"))
+
+print(variable1[number1:number2])
+
+string slicing challenge 5
+word = str(input("Enter any word >>>"))
+word2 = (word).upper()
+print(word2)
+
+string slicing challenge 6
+
+name1 = str(input("Enter your first name >>>"))
+
+if len(name1) < 5:
+    name2 = str
+        
