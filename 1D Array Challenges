@@ -5,3 +5,21 @@ cars.append(input("Enter the name of a car brand >>>"))
 cars.append(input("Enter the name of a different car brand >>>"))
 cars.append(input("Enter the name of a different car brand >>>"))
 print(cars)
+
+Challenge 2
+
+cars = []
+
+a = True
+
+while a == True:
+    b = str(input("input a car brand or press x to exit >>>"))
+    if b == ("x"):
+        print("in the list is", (cars))
+
+        print("exiting...")
+        a = False
+    
+    if b != ("x"):
+        cars.append(b)
+        
