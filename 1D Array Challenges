@@ -1,0 +1,7 @@
+1D Array Challenge 1
+
+cars = []
+cars.append(input("Enter the name of a car brand >>>"))
+cars.append(input("Enter the name of a different car brand >>>"))
+cars.append(input("Enter the name of a different car brand >>>"))
+print(cars)
