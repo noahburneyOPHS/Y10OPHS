@@ -44,3 +44,8 @@ while a == True:
     if b == ("no"):
         a = False
         print(len(people))
+        
+        
+ Challenge 4
+ 
+ 
