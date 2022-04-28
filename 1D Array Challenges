@@ -23,3 +23,24 @@ while a == True:
     if b != ("x"):
         cars.append(b)
         
+
+Challenge 3
+
+people = []
+
+people.append(input("Enter a name >>>"))
+people.append(input("Enter a different name >>>"))
+people.append(input("Enter a different name >>>"))
+
+a = True
+
+while a == True:
+    b = str(input("Would you like to add another name >>>"))
+    if b == ("yes"):
+        people.append(input("Enter a different name >>>"))
+        
+        
+
+    if b == ("no"):
+        a = False
+        print(len(people))
