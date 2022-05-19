@@ -24,3 +24,18 @@ print(MySpaceCompany)
 MySpaceCompany[1] = "Rich people going to mars"
 
 print(MySpaceCompany)
+
+
+2D Array Challenge 3
+
+Stuff = [
+        ["1", "2", "3", "4"],
+        ["a", "b", "c", "d"],
+        ["I", "II", "111", "IV"],
+        ]
+
+print(Stuff)
+
+Stuff[1][2] = "Croydon"
+
+print(Stuff)
