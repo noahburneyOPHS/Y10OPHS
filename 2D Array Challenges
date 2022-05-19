@@ -39,3 +39,21 @@ print(Stuff)
 Stuff[1][2] = "Croydon"
 
 print(Stuff)
+
+
+2D Array Challenge 4
+
+OuterArray = []
+
+InnerArray1 = []
+
+InnerArray2 = []
+
+print(OuterArray)
+
+OuterArray.append(InnerArray1)
+OuterArray.append(InnerArray2)
+
+print(OuterArray)
+
+
