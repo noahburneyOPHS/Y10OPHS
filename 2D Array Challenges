@@ -9,3 +9,18 @@ MySpaceCompany.append(input("Enter another type of space vehicle >>>"))
 MySpaceCompany.append(input("Enter another type of space vehicle >>>"))
 
 print(MySpaceCompany)
+
+
+2D Array Challenge 2
+
+MySpaceCompany = ["Rocket Pack", "Moon Base", "Moon Buggy"]
+
+print(MySpaceCompany)
+
+MySpaceCompany[0] = "Rich people going to Mars"
+
+print(MySpaceCompany)
+
+MySpaceCompany[1] = "Rich people going to mars"
+
+print(MySpaceCompany)
