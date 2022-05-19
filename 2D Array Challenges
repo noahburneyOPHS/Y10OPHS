@@ -57,3 +57,12 @@ OuterArray.append(InnerArray2)
 print(OuterArray)
 
 
+2D Array Challenge 5
+
+EmptyArray = [[0 for column in range(5)]for row in range(2)]
+
+print(EmptyArray)
+
+EmptyArray
+
+
