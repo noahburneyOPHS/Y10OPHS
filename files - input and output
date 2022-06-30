@@ -1,0 +1,9 @@
+Files challenge 1
+
+a = open("numbers.txt", "w")
+
+b = input("write 5 numbers >>>")
+
+a.write(b)
+
+a.close()
