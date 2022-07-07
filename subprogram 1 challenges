@@ -7,3 +7,13 @@ def menu():
 
 menu()
     
+SUBPROGRAM CHALLENGE 2:
+
+def menu():
+    print("press 1 for Domination")
+    print("press 2 for Team Deathmatch")
+    print("press 3 for Headquarters")
+
+    userInput = int(input("enter number 1, 2 or 3 >>>"))
+
+menu()
