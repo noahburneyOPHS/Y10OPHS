@@ -1,1 +1,11 @@
+CHALLENGE 1:
 
+name = str(input("Enter your name >>>"))
+
+def HappyBirthday():
+    print("Happy birthday to you")
+    print("Happy birthday to you")
+    print("Happy birthday to", name)
+    print("Happy birthday to you")
+
+HappyBirthday()
