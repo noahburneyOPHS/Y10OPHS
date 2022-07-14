@@ -55,3 +55,44 @@ def menu():
         menu()
 
 menu()
+
+
+SUBPROGRAM CHALLENGE 4:
+
+def creative():
+    print("Creative selected")
+def survival():
+    print("Survival selected")
+def hardcore():
+    print("Hardcore selected")
+def adventure():
+    print("Adventure selected")
+def exiting():
+    print("Exiting ...")
+
+def menu():
+    print("press 1 for Creative")
+    print("press 2 for Survival")
+    print("press 3 for Hardcore")
+    print("press 4 for Adventure")
+    print("press 5 to Exit")
+
+    userInput = int(input("Press 1, 2, 3, 4 or 5 >>>"))
+
+    if userInput == 1:
+        creative()
+    elif userInput == 2:
+        survival()
+    elif userInput == 3:
+        hardcore()
+    elif userInput == 4:
+        adventure()
+    elif userInput == 5:
+        exiting()
+    else:
+        print("")
+        print("INVALID CHOICE")
+        print("")
+        menu()
+
+menu()
