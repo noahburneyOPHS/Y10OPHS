@@ -17,3 +17,41 @@ def menu():
     userInput = int(input("enter number 1, 2 or 3 >>>"))
 
 menu()
+
+
+SUBPROGRAM CHALLENGE 3:
+
+def player1Game():
+    print("1-Player has been chosen")
+
+def player2Game():
+    print("2-Player has been chosen")
+
+def online():
+    print("Online has been chosen")
+
+def Exit():
+    print("exiting ...")
+
+def menu():
+    print("press 1 for 1-Player")
+    print("press 2 for 2-Player")
+    print("press 3 for Online")
+    print("press 4 to exit")
+
+    userInput = int(input("Enter 1, 2, 3 or 4 >>>"))
+
+    if userInput == 1:
+        player1Game()
+    elif userInput == 2:
+        player2Game()
+    elif userInput == 3:
+        online()
+    elif userInput == 4:
+        Exit()
+    else:
+        print("")
+        print("Invalid, Must choose 1, 2 ,3 or 4")
+        menu()
+
+menu()
