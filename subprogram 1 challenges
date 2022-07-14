@@ -96,3 +96,45 @@ def menu():
         menu()
 
 menu()
+
+
+SUBPROGRAM CHALLENGE 5:
+
+def option1():
+    print("think big chosen")
+def option2():
+    print("think bigger chosen")
+def option3():
+    print("winning chosen")
+def option4():
+    print("winner chosen")
+def option5():
+    print("bye")
+
+def menu():
+    print("press 1 for think big")
+    print("press 2 for think bigger")
+    print("press 3 for winning")
+    print("press 4 for winner")
+    print("press 5 to Exit")
+
+    userinput = int(input("press 1, 2, 3, 4 or 5 >>>"))
+
+    if userinput == 1:
+        option1()
+    elif userinput == 2:
+        option2()
+    elif userinput == 3:
+        option3()
+    elif userinput == 4:
+        option4()
+    elif userinput == 5:
+        option5()
+    else:
+        print("")
+        print("INVALID CHOICE")
+        print("")
+        menu()
+
+menu()
+
